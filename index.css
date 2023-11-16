@@ -3,7 +3,7 @@ h1 {
     margin: auto;
     display: block;
     margin-top: 90px;
-    color: white;
+    color: gray;
 }
 
 #minhafoto {
@@ -15,7 +15,7 @@ h1 {
 }
 
 body {
-    background-image: url(/img/FundoTec.jpg);
+    background-image: url(/img/Fundo-Branco_Tecnologico.jpg);
 }
 
 #facebook,
@@ -41,14 +41,45 @@ body {
 }
 
 #menu ul {
-    color: white;
-    font-size: 30px;
+    color: gray;
+    font-size: 25px;
     display: flex;
     justify-content: end;
 
 }
 
-a {
-    color: white;
+#menu a {
+    color: gray;
     text-decoration: none;
+    margin-right: 40px;
+}
+
+h2 {
+    color: gray;
+    text-align: center;
+    margin-top: 130px;
+}
+
+#sobremin {
+    margin: 300px;
+}
+
+p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+#fotofatec {
+    float: right;
+}
+
+#mapa {
+    margin-top: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+    border-radius: 8px;
 }
