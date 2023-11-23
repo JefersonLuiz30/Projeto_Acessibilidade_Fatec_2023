@@ -7,18 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portifólio</title>
 
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./index.css" id="css2">
 </head>
 
 <body>
 
+    <script src="./index.js"></script>
+
     <nav id="menu">
         <ul>
-            <li> <a href="./index.html">Home</a></li>
-            <li> <a href="./sobremim.html">Sobre Mim</a></li>
-            <li> <a href="./resumoacademico.html">Resumo Academico</a></li>
-            <li> <a href="./contato.html">Contato</a></li>
-            
+            <li class="elementopai"> <a href="./index.html" class="elementofilho">Home</a></li>
+            <li class="elementopai"> <a href="./sobremim.html" class="elementofilho">Sobre Mim</a></li>
+            <li class="elementopai"> <a href="./resumoacademico.html" class="elementofilho">Resumo Academico</a></li>
+            <li class="elementopai"> <a href="./contato.html" class="elementofilho">Contato</a></li>
+            <!-- <button onclick="trocartema()">
+                Tema
+              </button> -->
         </ul>
     </nav>
 
@@ -46,6 +50,7 @@
         </div>
     </div>
     <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+
     <script>
         new window.VLibras.Widget();
     </script>
