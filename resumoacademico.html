@@ -7,36 +7,44 @@
     <title>Resumo Academico</title>
 
     <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
 </head>
 
 <body>
 
     <nav id="menu">
+        <div class="botZoom">
+            <button id="increaseBtn">+</button>
+            <button id="decreaseBtn">-</button>
+        </div>
         <ul>
-            <li> <a href="./index.html">Home</a></li>
-            <li> <a href="./sobremim.html">Sobre Mim</a></li>
-            <li> <a href="./resumoacademico.html">Resumo Academico</a></li>
-            <li> <a href="./contato.html">Contato</a></li>
+            <li class="text"> <a href="./index.html">Home</a></li>
+            <li class="text"> <a href="./sobremim.html">Sobre Mim</a></li>
+            <li class="text"> <a href="./resumoacademico.html">Resumo Academico</a></li>
+            <li class="text"> <a href="./contato.html">Contato</a></li>
         </ul>
     </nav>
 
     <section id="resumo">
 
-        <h1 id="resumoacademico">Resumo Academico</h1>
+        <h1 id="resumoacademico" class="text">Resumo Academico</h1>
 
         <img src="./img/Fatec-Taquaritinga.jpg" alt="Foto_Fatec_Taquaritinga" id="fatectaq">
 
-        <p>Aluno dedicado do curso de <span>Sistemas para Internet</span>, atualmente no <span>segundo semestre na Fatec
+        <p class="text">Aluno dedicado do curso de <span>Sistemas para Internet</span>, atualmente no <span>segundo
+                semestre na Fatec
                 Taquaritinga,
                 período diurno, no ano de 2023.</span> Tenho buscado aproveitar ao máximo as oportunidades de
             aprendizado
             proporcionadas pela instituição, comprometendo-me com meu crescimento acadêmico e profissional.</p>
 
-        <p>Ao longo deste segundo semestre, tenho me empenhado nos estudos, absorvendo os conhecimentos essenciais para
+        <p class="text">Ao longo deste segundo semestre, tenho me empenhado nos estudos, absorvendo os conhecimentos
+            essenciais para
             minha formação. A Fatec Taquaritinga, com seu ambiente propício e suporte, tem sido fundamental nesse
             processo, oferecendo recursos indispensáveis para o desenvolvimento dos estudantes.</p>
 
-        <p>Estou entusiasmado com as perspectivas que este semestre traz, ciente dos desafios e das oportunidades que
+        <p class="text">Estou entusiasmado com as perspectivas que este semestre traz, ciente dos desafios e das
+            oportunidades que
             surgirão. Acredito que essa jornada contribuirá significativamente para minha capacitação na área de
             Tecnologia da Informação. Agradeço a todos pela receptividade e colaboração, ansioso para contribuir de
             maneira positiva para o ambiente acadêmico.</p>
@@ -46,7 +54,7 @@
 
     </section>
 
-    <H2>Localização Fatec Taquaritinga</H2>
+    <H2 class="text">Localização Fatec Taquaritinga</H2>
     <section id="mapa">
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3713.9784001848247!2d-48.51785942473223!3d-21.43009398032153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b93bd3b48e7047%3A0x1808de33145ee4e0!2sFatec%20Taquaritinga!5e0!3m2!1spt-BR!2sbr!4v1700169769414!5m2!1spt-BR!2sbr"
@@ -55,11 +63,11 @@
     </section>
 
     <footer>
-        <p id="copy">&copy; 2023 - Todos os direitos reservados</p>
+        <p id="copy" class="text">&copy; 2023 - Todos os direitos reservados</p>
         <nav>
             <ul>
-                <li><a href="#">Termos de uso</a></li>
-                <li><a href="#">Política de privacidade</a></li>
+                <li class="text"><a href="#">Termos de uso</a></li>
+                <li class="text"><a href="#">Política de privacidade</a></li>
             </ul>
         </nav>
     </footer>

@@ -17,23 +17,30 @@
     <title>Meu Portifólio</title>
 
     <link rel="stylesheet" href="./index.css" id="css2">
+    <script src="./index.js"></script>
 </head>
 
 <body>
 
     <script src="./index.js"></script>
 
+
     <nav id="menu">
+        <div class="botZoom">
+
+            <button id="increaseBtn" class="button">Aumentar Fonte</button>
+            <button id="decreaseBtn" class="button">Diminuir Fonte</button>
+        </div>
         <ul>
-            <li class="elementopai"> <a href="./index.html" class="elementofilho">Home</a></li>
-            <li class="elementopai"> <a href="./sobremim.html" class="elementofilho">Sobre Mim</a></li>
-            <li class="elementopai"> <a href="./resumoacademico.html" class="elementofilho">Resumo Academico</a></li>
-            <li class="elementopai"> <a href="./contato.html" class="elementofilho">Contato</a></li>
-            
+            <li class="text"> <a href="./index.html">Home</a></li>
+            <li class="text"> <a href="./sobremim.html">Sobre Mim</a></li>
+            <li class="text"> <a href="./resumoacademico.html">Resumo Academico</a></li>
+            <li class="text"> <a href="./contato.html">Contato</a></li>
+
         </ul>
     </nav>
 
-    <h1 id="home">Olá Meu nome é Jeferson</h1>
+    <h1 id="home" class="text">Olá Meu nome é Jeferson</h1>
 
     <section id="foto">
         <img src="./img/Eu-1.png" alt="foto_Perfil" id="minhafoto">
@@ -62,12 +69,13 @@
         new window.VLibras.Widget();
     </script>
 
+
     <footer>
-        <p id="copy">&copy; 2023 - Todos os direitos reservados</p>
+        <p id="copy" class="text">&copy; 2023 - Todos os direitos reservados</p>
         <nav>
             <ul>
-                <li><a href="#">Termos de uso</a></li>
-                <li><a href="#">Política de privacidade</a></li>
+                <li class="text"><a href="#">Termos de uso</a></li>
+                <li class="text"><a href="#">Política de privacidade</a></li>
             </ul>
         </nav>
     </footer>

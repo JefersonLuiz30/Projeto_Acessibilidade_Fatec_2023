@@ -1,11 +1,19 @@
 /* https://corhexa.com/verificador-contraste usado como verificador de contraste. */
 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
 h1 {
     width: 350px;
     margin: auto;
     display: block;
     margin-top: 90px;
     color: #5e2f2f;
+    font-size: 30px;
+    text-align: center;
 }
 
 #minhafoto {
@@ -29,6 +37,7 @@ body {
 #whatsapp {
     width: 40px;
     margin: 5px;
+    margin-bottom: 30px;
 }
 
 #facebook:hover,
@@ -48,12 +57,12 @@ body {
 
 /* Menu */
 #menu ul {
-   
+
     font-size: 25px;
     display: flex;
     justify-content: end;
     list-style-type: none;
-    
+
 
 }
 
@@ -76,7 +85,7 @@ h2 {
     margin: 300px;
 }
 
-#sobremim{
+#sobremim {
     background-color: white;
 }
 
@@ -92,7 +101,7 @@ p {
     margin: 30px;
 }
 
-#resumo{
+#resumo {
     background-color: white;
 }
 
@@ -113,85 +122,138 @@ iframe {
     border-radius: 8px;
 }
 
-span{
+span {
     font-weight: bold;
 }
 
 /* Formulario Contato*/
 
-.formulario  .titulo { 
+.formulario .titulo {
 
     color: #5e2f2f;
     font-size: 1.5em;
     margin-bottom: 10px;
     padding-bottom: 10px;
-  
-  }
-  
-  .formulario {
-     
+
+}
+
+.formulario {
+
     max-width: 500px;
     margin: auto;
     background: white;
     overflow: hidden;
     padding: 20px;
-  
-  
-  }
-  
-  :focus{outline: none;}
-  
-  .label { 
-  
-    float: left; 
-    width: 100%; 
-    margin-bottom: 25px; 
+
+
+}
+
+:focus {
+    outline: none;
+}
+
+.label {
+
+    float: left;
+    width: 100%;
+    margin-bottom: 25px;
     position: relative;
-  
-  }
-  
-  .input-bordas{
-    
-    font: 15px/24px "Lato", Arial, sans-serif; 
-    color: #333; 
-    width: 100%; 
-    box-sizing: border-box; 
+
+}
+
+.input-bordas {
+
+    font: 15px/24px "Lato", Arial, sans-serif;
+    color: #333;
+    width: 100%;
+    box-sizing: border-box;
     letter-spacing: 1px;
-    border: 1px solid #ccc; 
-    padding: 7px 14px 9px; 
+    border: 1px solid #ccc;
+    padding: 7px 14px 9px;
     transition: 0.4s;
-  
-  }
-  
-  .textarea { resize:none!important; }
-  
-  .input-bordas ~ .focus-border:before,
-  .input-bordas ~ .focus-border:after{content: ""; position: absolute; top: 0; right: 0; width: 0; height: 2px; background-color: #3399FF; transition: 0.2s; transition-delay: 0.2s;}
-  .input-bordas ~ .focus-border:after{top: auto; bottom: 0; right: auto; left: 0; transition-delay: 0.6s;}
-  .input-bordas ~ .focus-border i:before,
-  .input-bordas ~ .focus-border i:after{content: ""; position: absolute; top: 0; left: 0; width: 2px; height: 0; background-color: #3399FF; transition: 0.2s;}
-  .input-bordas ~ .focus-border i:after{left: auto; right: 0; top: auto; bottom: 0; transition-delay: 0.4s;}
-  .input-bordas:focus ~ .focus-border:before,
-  .input-bordas:focus ~ .focus-border:after{width: 100%; transition: 0.2s; transition-delay: 0.6s;}
-  .input-bordas:focus ~ .focus-border:after{transition-delay: 0.2s;}
-  .input-bordas:focus ~ .focus-border i:before,
-  .input-bordas:focus ~ .focus-border i:after{height: 100%; transition: 0.2s;}
-  .input-bordas:focus ~ .focus-border i:after{transition-delay: 0.4s;}
-  
-  
-  .button-form { 
-  
+
+}
+
+.textarea {
+    resize: none !important;
+}
+
+.input-bordas~.focus-border:before,
+.input-bordas~.focus-border:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 2px;
+    background-color: #3399FF;
+    transition: 0.2s;
+    transition-delay: 0.2s;
+}
+
+.input-bordas~.focus-border:after {
+    top: auto;
+    bottom: 0;
+    right: auto;
+    left: 0;
+    transition-delay: 0.6s;
+}
+
+.input-bordas~.focus-border i:before,
+.input-bordas~.focus-border i:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 0;
+    background-color: #3399FF;
+    transition: 0.2s;
+}
+
+.input-bordas~.focus-border i:after {
+    left: auto;
+    right: 0;
+    top: auto;
+    bottom: 0;
+    transition-delay: 0.4s;
+}
+
+.input-bordas:focus~.focus-border:before,
+.input-bordas:focus~.focus-border:after {
+    width: 100%;
+    transition: 0.2s;
+    transition-delay: 0.6s;
+}
+
+.input-bordas:focus~.focus-border:after {
+    transition-delay: 0.2s;
+}
+
+.input-bordas:focus~.focus-border i:before,
+.input-bordas:focus~.focus-border i:after {
+    height: 100%;
+    transition: 0.2s;
+}
+
+.input-bordas:focus~.focus-border i:after {
+    transition-delay: 0.4s;
+}
+
+
+.button-form {
+
     background-color: #39f;
     padding: 0.5em 1.3em;
     color: #fff;
     font-size: 1.2em;
     border: none;
     cursor: pointer;
-  
-  }
-  
-  .borda-inversa {
-  
+
+}
+
+.borda-inversa {
+
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: translateZ(0);
@@ -205,53 +267,62 @@ span{
     -webkit-transition-property: background;
     transition-property: background;
     box-shadow: inset 0 0 0 2px #39f, 0 0 1px rgba(0, 0, 0, 0);
-  
-  }
-  
-  .borda-inversa:hover, .borda-inversa:focus, .borda-inversa:active {
-    
+
+}
+
+.borda-inversa:hover,
+.borda-inversa:focus,
+.borda-inversa:active {
+
     background: none;
-    color:#39f; 
-  
-  }
-  
-  /*Anti-span*/
-  .naoexibir { display:none; }
+    color: #39f;
 
-  /*Rodapé*/
+}
 
-  footer {
-	background-color: #e0dddd;
-	color: #5e2f2f;
-	padding: 10px;
-	text-align: center;
-	margin-top: 10px;
+/*Anti-span*/
+.naoexibir {
+    display: none;
+}
+
+/*Rodapé*/
+
+footer {
+    background-color: #e0dddd;
+    color: #5e2f2f;
+    padding: 10px;
+    text-align: center;
+    margin-left: 0px;
 }
 
 ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 li {
-	display: inline-block;
-	margin: 0 10px;
+    display: inline-block;
+    margin: 0 10px;
 }
 
 a {
-	color: #5e2f2f;
-	text-decoration: none;
+    color: #5e2f2f;
+    text-decoration: none;
 }
 
-#copy{
+#copy {
     text-align: center;
 }
 
-#rodape{
+#rodape {
     margin-top: 99px;
 }
 
-/*Botão Tema*/
-
-  
+.button {
+    padding: 5px;
+    font-size: 15px;
+    border-color: #5e2f2f;
+    background-color: transparent;
+    font: 200;
+    color: #5e2f2f;
+}
