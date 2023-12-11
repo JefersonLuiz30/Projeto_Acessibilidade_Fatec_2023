@@ -1,42 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Mim</title>
 
     <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
 </head>
+
 <body>
 
     <nav id="menu">
+        <div class="botZoom">
+            <button id="increaseBtn">+</button>
+            <button id="decreaseBtn">-</button>
+        </div>
         <ul>
-            <li> <a href="./index.html">Home</a></li>
-            <li> <a href="./sobremim.html">Sobre Mim</a></li>
-            <li> <a href="./resumoacademico.html">Resumo Academico</a></li>
-            <li> <a href="./contato.html">Contato</a></li>
+            <li class="text"> <a href="./index.html">Home</a></li>
+            <li class="text"> <a href="./sobremim.html">Sobre Mim</a></li>
+            <li class="text"> <a href="./resumoacademico.html">Resumo Academico</a></li>
+            <li class="text"> <a href="./contato.html">Contato</a></li>
         </ul>
     </nav>
 
     <section id="sobremim">
 
-        <h2>Sobre Mim</h2>
+        <h1>Sobre Mim</h1>
 
         <img src="./img/focado.png" alt="foto_pessoa_focada" id="pessoafocada">
 
-        <p> Sou uma pessoa ativa e curiosa, que gosta de aprender coisas novas e se divertir. Adoro assistir filmes e
+        <p class="text"> Sou uma pessoa ativa e curiosa, que gosta de aprender coisas novas e se divertir. Adoro
+            assistir filmes e
             séries, sair com os amigos e familiares, e praticar esportes. Também gosto de jogar videogame, pois é uma
             forma de relaxar e me divertir.</p>
 
 
 
-        <p>Sou uma pessoa focada e que trabalha bem em equipe. Quando estou empenhado em algo, faço de tudo para
+        <p class="text">Sou uma pessoa focada e que trabalha bem em equipe. Quando estou empenhado em algo, faço de tudo
+            para
             alcançar meus objetivos. Também sou um bom companheiro de trabalho, pois sou sempre disposto a ajudar os
             outros.</p>
 
 
 
-        <p>Sou uma pessoa que gosta de viver a vida ao máximo. Acredito que é importante aproveitar cada momento e fazer
+        <p class="text">Sou uma pessoa que gosta de viver a vida ao máximo. Acredito que é importante aproveitar cada
+            momento e fazer
             o que gostamos. Estou sempre procurando novas experiências e desafios.</p>
 
 
@@ -44,11 +54,11 @@
     </section>
 
     <footer id="rodape">
-        <p id="copy">&copy; 2023 - Todos os direitos reservados</p>
+        <p id="copy" class="text">&copy; 2023 - Todos os direitos reservados</p>
         <nav>
             <ul>
-                <li><a href="#">Termos de uso</a></li>
-                <li><a href="#">Política de privacidade</a></li>
+                <li><a href="#" class="text">Termos de uso</a></li>
+                <li><a href="#" class="text">Política de privacidade</a></li>
             </ul>
         </nav>
     </footer>
@@ -64,6 +74,7 @@
         new window.VLibras.Widget();
     </script>
 
-    
+
 </body>
+
 </html>
